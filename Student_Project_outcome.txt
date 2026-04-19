@@ -1,0 +1,121 @@
+
+ developer 
+
+  ||
+
+  git repository  - code
+  https://github.com/venkatesh-db/5_Devops_Project_Placements
+   branch name - main 
+   two devops project 
+
+  ||
+
+  developer clone - git clone https://github.com/venkatesh-db/5_Devops_Project_Placements.git
+  copy code to local machine 
+
+   ||
+   This folder exits with two projects 
+   project1 
+   project2 
+
+   ||
+we cannot directly. build and run. 
+   build docker 
+   run docker 
+
+   ||
+   Imagine dev downlaod project on local pc 
+   he has to setup docker kuebernetes 
+   run the docker and kuebernetes
+
+   ||
+   we use jenkins 
+
+   3 stage 
+
+   stage1- downlaod project 
+   stage 2- docker build 
+   stage 3- run the docker 
+
+   ||
+
+   Project outcome 
+
+   jenkins pipeline 
+     - build 
+     - test 
+     - deploy 
+
+     ||
+
+     application server 
+
+     
+Installation : 
+
+brew services start jenkins-lts
+brew services list
+http://localhost:8080
+
+jvt
+1lakhsmiles 
+
+Login sucessful 
+
+Run the project:
+
+1. create new repositorty 
+
+https://github.com/venkatesh-db/jenkins-project3/tree/main
+
+2. update the jenkins file correctly 
+
+3. update and commit in the repositorty
+
+4. we  need to run the github repository 
+   every time to jenkings to build 
+
+   make sure your branch name is perfect - main 
+
+
+5. jenkins build now 
+
+6. Console Output -jebnkins errors 
+
+7. Jenkinsfile file name in repository 
+
+8. docker file linking in jenbkins path is very impoortant 
+
+
+
+""" Project flow """
+
+GitHub Repo
+https://github.com/venkatesh-db/jenkins-project3
+https://github.com/venkatesh-db/jenkins-project3
+        ↓
+Jenkins Checkout
+        ↓
+Docker Build
+        ↓
+Stop Old Container
+        ↓
+Run Container
+
+
+Project errrors :
+
+1. jenkinsfilename  - First letter be J
+
+2. Docker path is found in jenkins 
+
+3. branch bydefault in project pipelien was master we changed to main 
+
+4. every code commit to fix the jenkinnsfile the pipeline was taking the updated the code and running teh pipeline 
+
+5. jenkings not starting and password invalid 
+
+
+ 
+
+
